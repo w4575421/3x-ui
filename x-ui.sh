@@ -1260,39 +1260,39 @@ show_usage() {
 
 show_menu() {
     echo -e "
-  ${green}3X-ui Panel Management Script${plain}
-  ${green}0.${plain} Exit Script
+  ${green}3X-ui 面板管理脚本${plain}
+  ${green}0.${plain} 退出脚本
 ————————————————
-  ${green}1.${plain} Install
-  ${green}2.${plain} Update
-  ${green}3.${plain} Custom Version
-  ${green}4.${plain} Uninstall
+  ${green}1.${plain} 安装
+  ${green}2.${plain} 更新
+  ${green}3.${plain} 定制版
+  ${green}4.${plain} 卸载
 ————————————————
-  ${green}5.${plain} Reset Username & Password & Secret Token
-  ${green}6.${plain} Reset Settings
-  ${green}7.${plain} Change Port
-  ${green}8.${plain} View Current Settings
+  ${green}5.${plain} 重置用户名和密码以及秘密令牌
+  ${green}6.${plain} 重新设置
+  ${green}7.${plain} 更改端口
+  ${green}8.${plain} 查看当前设置
 ————————————————
-  ${green}9.${plain} Start
-  ${green}10.${plain} Stop
-  ${green}11.${plain} Restart
-  ${green}12.${plain} Check Status
-  ${green}13.${plain} Check Logs
+  ${green}9.${plain} 开始
+  ${green}10.${plain} 停止
+  ${green}11.${plain} 重新开始
+  ${green}12.${plain} 检查状态
+  ${green}13.${plain} 检查日志
 ————————————————
-  ${green}14.${plain} Enable Autostart
-  ${green}15.${plain} Disable Autostart
+  ${green}14.${plain} 启用自动启动
+  ${green}15.${plain} 禁用自动启动
 ————————————————
-  ${green}16.${plain} SSL Certificate Management
-  ${green}17.${plain} Cloudflare SSL Certificate
-  ${green}18.${plain} IP Limit Management
-  ${green}19.${plain} WARP Management
-  ${green}20.${plain} Firewall Management
+  ${green}16.${plain} SSL证书管理
+  ${green}17.${plain} Cloudflare SSL 证书
+  ${green}18.${plain} IP限制管理
+  ${green}19.${plain} 经线管理
+  ${green}20.${plain} 防火墙管理
 ————————————————
-  ${green}21.${plain} Enable BBR 
-  ${green}22.${plain} Update Geo Files
-  ${green}23.${plain} Speedtest by Ookla
+  ${green}21.${plain} 启用 BBR 
+  ${green}22.${plain} 更新地理文件
+  ${green}23.${plain} Ookla 速度测试
 "
-    show_status
+    显示状态
     echo && read -p "Please enter your selection [0-23]: " num
 
     case "${num}" in
